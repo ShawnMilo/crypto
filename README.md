@@ -59,3 +59,11 @@ I was greatly helped by [this Stackoverflow response](http://stackoverflow.com/a
 
 * [hmac](https://golang.org/pkg/crypto/hmac/)
 * [base64](https://golang.org/pkg/encoding/base64/)
+
+----
+
+This technique is not original to me, and has probably been independently created my many others. I learned it from [Steve Gibson](https://twitter.com/sggrc), founder of [Gibson Research Corporation](https://www.grc.com/) and creator of [SpinRite](https://www.grc.com/sr/spinrite.htm).
+
+Steve Gibson also explained the reasons using HMAC authentication is important, as well as why the authentication should be done _after_ encryption, not before, on the [Security Now](https://www.grc.com/securitynow.htm) podcast.
+
+Specifically, this was explained while discussing InstantCryptor on episodes 497 and 499. See the Security Now link for access to audio and text from those episodes.
